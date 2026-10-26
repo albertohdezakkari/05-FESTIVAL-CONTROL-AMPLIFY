@@ -72,7 +72,7 @@ Los avisos restantes corresponden a `image-size`, `node-forge` y tres paquetes q
 
 ## Publicación y límites de la evidencia
 
-El workflow `.github/workflows/verify.yml` está preparado para instalar, comprobar versiones, verificar TypeScript, exportar y probar la exportación en Ubuntu. Los resultados locales anteriores no se presentan como resultados remotos de GitHub Actions.
+El workflow `.github/workflows/verify.yml` está preparado para instalar, comprobar versiones, verificar TypeScript, exportar y probar la exportación en Ubuntu. La primera ejecución remota también terminó correctamente: [Verify Expo Web · 40266430743](https://github.com/albertohdezakkari/05-FESTIVAL-CONTROL-AMPLIFY/actions/runs/40266430743), commit `0ddbc43`. Completó instalación, compatibilidad Expo, TypeScript, exportación y las 12 pruebas de la exportación en Ubuntu. Tras esa ejecución se fijó Ubuntu 24.04 y se actualizaron checkout/setup-node a sus líneas v7 publicadas, eliminando el uso de acciones basadas en Node 20 obsoleto.
 
 El archivo `amplify.yml` se ha revisado contra la [especificación oficial de Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/yml-specification-syntax.html). Los comandos equivalentes de instalación, TypeScript y exportación se han ejecutado localmente; no se ha probado el contenedor de Amplify.
 

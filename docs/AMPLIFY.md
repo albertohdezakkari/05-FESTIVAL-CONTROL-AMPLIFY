@@ -43,4 +43,4 @@ La aplicación navega mediante estado de React en una sola página. No genera ru
 
 La exportación y sus interacciones están verificadas localmente. No se ha creado ni verificado un despliegue en una cuenta AWS durante esta auditoría. **No hay URL pública confirmada.** Falta conectar GitHub desde la cuenta AWS, completar el primer despliegue y validar el enlace generado.
 
-Fuentes oficiales: [Expo Web](https://docs.expo.dev/workflow/web/), [especificación de amplify.yml](https://docs.aws.amazon.com/amplify/latest/userguide/yml-specification-syntax.html), [despliegue continuo de Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started-existing-code.html).
+Fuentes oficiales: [Expo Web](https://docs.expo.dev/workflow/web/), [especificación de amplify.yml](https://docs.aws.amazon.com/amplify/latest/userguide/yml-specification-syntax.html), [despliegue continuo de Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html).
